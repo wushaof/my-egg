@@ -219,7 +219,8 @@
       },
       "dependencies": {
         "egg": "^2.33.1",
-        "egg-view-nunjucks": "^2.3.0"
+        "egg-view-nunjucks": "^2.3.0",
+        "moment": "^2.29.1"
       }
     },
     "baseDir": "D:\\pro\\vue\\my-egg-example",
@@ -325,9 +326,21 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
+    "middleware": [
+      "robot"
+    ],
+    "robot": {
+      "ua": [
+        {}
+      ]
+    },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",

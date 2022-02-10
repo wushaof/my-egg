@@ -9,6 +9,10 @@
     "cache": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "news": {
+    "pageSize": "D:\\pro\\vue\\my-egg-example\\config\\config.default.js",
+    "serverUrl": "D:\\pro\\vue\\my-egg-example\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg-session\\config\\config.default.js",
@@ -182,7 +186,8 @@
     },
     "dependencies": {
       "egg": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg\\config\\config.default.js"
+      "egg-view-nunjucks": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "baseDir": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg\\config\\config.default.js",
