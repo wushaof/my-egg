@@ -13,6 +13,10 @@
     "pageSize": "D:\\pro\\vue\\my-egg-example\\config\\config.default.js",
     "serverUrl": "D:\\pro\\vue\\my-egg-example\\config\\config.default.js"
   },
+  "middleware": "D:\\pro\\vue\\my-egg-example\\config\\config.default.js",
+  "robot": {
+    "ua": "D:\\pro\\vue\\my-egg-example\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\pro\\vue\\my-egg-example\\node_modules\\egg-session\\config\\config.default.js",

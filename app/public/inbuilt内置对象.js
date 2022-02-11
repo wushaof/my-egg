@@ -58,3 +58,4 @@ class Schedule extends Subscription {
   // subscribe 可以为 async function 或 generator function
   async subscribe() {}
 }
+
